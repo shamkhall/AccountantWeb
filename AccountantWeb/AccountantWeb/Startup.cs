@@ -23,7 +23,7 @@ namespace AccountantWeb
     public class Startup
     {
         private IConfiguration _config;
-
+        
         public Startup(IConfiguration config)
         {
             _config = config;
