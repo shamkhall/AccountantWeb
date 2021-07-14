@@ -9661,11 +9661,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Desktop\\Accountant\\Accountant\\AccountantWeb\\AccountantWeb\\AccountantWeb.csproj",
+      "projectUniqueName": "F:\\Workspace\\AccountantWeb\\AccountantWeb\\AccountantWeb\\AccountantWeb.csproj",
       "projectName": "AccountantWeb",
-      "projectPath": "F:\\Desktop\\Accountant\\Accountant\\AccountantWeb\\AccountantWeb\\AccountantWeb.csproj",
+      "projectPath": "F:\\Workspace\\AccountantWeb\\AccountantWeb\\AccountantWeb\\AccountantWeb.csproj",
       "packagesPath": "C:\\Users\\shamkhal\\.nuget\\packages\\",
-      "outputPath": "F:\\Desktop\\Accountant\\Accountant\\AccountantWeb\\AccountantWeb\\obj\\",
+      "outputPath": "F:\\Workspace\\AccountantWeb\\AccountantWeb\\AccountantWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shamkhal\\AppData\\Roaming\\NuGet\\NuGet.Config",
