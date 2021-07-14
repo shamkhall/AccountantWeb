@@ -1,0 +1,602 @@
+﻿@using Ubiety.Dns.Core
+@inject SignInManager<ApplicationUser> signInManager
+
+
+<!DOCTYPE html>
+<html lang="en"
+      dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Accountant</title>
+
+    <!-- Prevent the demo from appearing in search engines (REMOVE THIS) -->
+    <meta name="robots"
+          content="noindex">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,700%7CRoboto:400,500%7CRoboto:400,500&display=swap"
+          rel="stylesheet">
+
+    <!-- Perfect Scrollbar -->
+    <link type="text/css"
+          href="~/vendor/perfect-scrollbar.css"
+          rel="stylesheet">
+
+    <link type="text/css"
+          href="~/css/style.css"
+          rel="stylesheet">
+
+    <!-- Material Design Icons -->
+    <link type="text/css"
+          href="~/css/material-icons.css"
+          rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link type="text/css"
+          href="~/css/fontawesome.css"
+          rel="stylesheet">
+
+    <!-- Preloader -->
+    <link type="text/css"
+          href="~/vendor/spinkit.css"
+          rel="stylesheet">
+
+    <!-- App CSS -->
+    <link type="text/css"
+          href="~/css/app.css"
+          rel="stylesheet">
+
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    #myInput {
+      background-position: 10px 12px;
+      background-repeat: no-repeat;
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 20px 12px 40px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
+    }
+    
+    #myUL {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    #myUL li a {
+      border: 1px solid #ddd;
+      margin-top: -1px; /* Prevent double borders */
+      background-color: #f6f6f6;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px;
+      color: black;
+      display: block
+    }
+    
+    #myUL li a:hover:not(.header) {
+      background-color: #eee;
+    }
+    </style>
+
+</head>
+
+<body class=" layout-fluid">
+
+<div class="preloader">
+    <div class="sk-chase">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+    </div>
+
+    <!-- <div class="sk-bounce">
+        <div class="sk-bounce-dot"></div>
+        <div class="sk-bounce-dot"></div>
+    </div> -->
+    <!-- More spinner examples at https://github.com/tobiasahlin/SpinKit/blob/master/examples.html -->
+</div>
+
+<!-- Header Layout -->
+<div class="mdk-header-layout js-mdk-header-layout">
+
+<!-- Header -->
+
+<div id="header"
+     data-fixed
+     class="mdk-header js-mdk-header mb-0">
+    <div class="mdk-header__content">
+
+        <!-- Navbar -->
+        <nav id="default-navbar"
+             class="navbar navbar-expand navbar-dark bg-primary m-0">
+            <div class="container-fluid">
+                <!-- Toggle sidebar -->
+                <button class="navbar-toggler d-block"
+                        data-toggle="sidebar"
+                        type="button">
+                    <span class="material-icons">menu</span>
+                </button>
+
+                <!-- Brand -->
+                <a asp-action="index" asp-controller="home"
+                   class="navbar-brand">
+                    
+                    <span class="d-none d-xs-md-block">HASAPCHY</span>
+                </a>
+
+
+                <!-- Search -->
+
+
+                <!-- // END Search -->
+
+                <div class="flex"></div>
+
+                <!-- Menu -->
+
+
+                <!-- Menu -->
+                <ul class="nav navbar-nav flex-nowrap">
+                    <!-- Notifications dropdown -->
+                    @if (User.IsInRole(("Admin")))
+                    {
+                        <li class="nav-item dropdown dropdown-notifications dropdown-menu-sm-full">
+                            <button class="nav-link btn-flush dropdown-toggle"
+                                    type="button"
+                                    data-toggle="dropdown"
+                                    data-dropdown-disable-document-scroll
+                                    data-caret="false">
+                                <i class="material-icons">notifications</i>
+                                <span class="badge badge-notifications badge-danger">2</span>
+                            </button>
+
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <div data-perfect-scrollbar
+                                     class="position-relative">
+                                    <div class="dropdown-header">
+                                        <strong>Bildirişlər</strong>
+                                    </div>
+
+                                    <div class="list-group list-group-flush mb-0">
+
+                                        <a href="student-messages.html"
+                                           class="list-group-item list-group-item-action unread">
+                                            <span class="d-flex align-items-center mb-1">
+                                                <small class="text-muted"></small>
+
+                                                <span class="ml-auto unread-indicator bg-primary"></span>
+
+                                            </span>
+                                            <span class="d-flex">
+                                                <span class="avatar avatar-xs mr-2">
+                                                    <img src="~/images/people/110/woman-5.jpg"
+                                                         alt="people"
+                                                         class="avatar-img rounded-circle">
+                                                </span>
+                                                <span class="flex d-flex flex-column">
+                                                    <strong>Muellif @ViewBag.UserAuthor</strong>
+                                                    <span class="text-black-70"></span>
+                                                </span>
+                                            </span>
+                                        </a>
+
+                                        <a href="student-messages.html"
+                                           class="list-group-item list-group-item-action unread">
+                                            <span class="d-flex align-items-center mb-1">
+                                                <small class="text-muted">5 minutes ago</small>
+
+                                                <span class="ml-auto unread-indicator bg-primary"></span>
+
+                                            </span>
+                                            <span class="d-flex">
+                                                <span class="avatar avatar-xs mr-2">
+                                                    <img src="~/images/people/110/woman-5.jpg"
+                                                         alt="people"
+                                                         class="avatar-img rounded-circle">
+                                                </span>
+                                                <span class="flex d-flex flex-column">
+                                                    <strong>Michelle</strong>
+                                                    <span class="text-black-70">🔥 Superb job..</span>
+                                                </span>
+                                            </span>
+                                        </a>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </li>
+                    }
+                    <li class="nav-link">
+                        <partial name="_Culture">
+                    </li>
+                    <!-- // END Notifications dropdown -->
+                    <!-- User dropdown -->
+
+
+                    @if (signInManager.IsSignedIn(User))
+                    {
+                        <li class="nav-item dropdown ml-1 ml-md-3">
+                            <a class="nav-link dropdown-toggle"
+                               data-toggle="dropdown"
+                               href="#"
+                               role="button">
+                                <i class="material-icons rounded-circle">person</i> @localizer["Profile"]
+
+                            </a>
+
+
+                            <div class="dropdown-menu dropdown-menu-right">
+
+                                <div class="dropdown-item">
+                                    <i class="material-icons">person</i>
+                                    @User.Identity.Name
+                                </div>
+
+                                <a class="dropdown-item"
+                                   asp-action="Profile" asp-controller="profile">
+                                    <i class="material-icons">edit</i> @localizer["Edit"]
+                                </a>
+
+                                <form method="post"
+                                      asp-controller="account" asp-action="logout">
+                                    <button type="submit" class="dropdown-item"
+                                            onclick="return confirm('Hesabdan çıxmaq istədiyinizə əminsiniz?')">
+                                        <i class="material-icons">lock</i>
+
+                                        @localizer["Logout"]
+                                    </button>
+                                </form>
+                            </div>
+
+
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="account" asp-action="register">
+                                Register
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="account" asp-action="login">
+                                Login
+                            </a>
+                        </li>
+                    }
+
+
+                    <!-- // END User dropdown -->
+
+                </ul>
+                <!-- // END Menu -->
+            </div>
+        </nav>
+        <!-- // END Navbar -->
+
+    </div>
+</div>
+
+<!-- // END Header -->
+<!-- Header Layout Content -->
+<div class="mdk-header-layout__content">
+
+<div data-push
+     data-responsive-width="992px"
+     class="mdk-drawer-layout js-mdk-drawer-layout">
+<div class="mdk-drawer-layout__content page ">
+
+    
+        @RenderBody()
+    
+
+</div>
+
+<div class="mdk-drawer js-mdk-drawer"
+     id="default-drawer">
+<div class="mdk-drawer__content ">
+<div class="sidebar sidebar-left sidebar-dark bg-dark o-hidden"
+     data-perfect-scrollbar>
+<div class="sidebar-p-y">
+
+<ul class="sidebar-menu sm-active-button-bg">
+    <li class="sidebar-menu-item @ViewBag.NavHome">
+        <a class="sidebar-menu-button"
+           asp-action="Index" asp-controller="Home">
+            <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">account_box</i> @localizer["HomePage"]
+        </a>
+    </li>
+
+</ul>
+<!-- Account menu -->
+<ul class="sidebar-menu sm-active-button-bg">
+<li class="sidebar-menu-item @ViewBag.NavCreateOpen @ViewBag.NavCreateActive">
+    <a class="sidebar-menu-button sidebar-js-collapse"
+       data-toggle="collapse"
+       href="#account_menu">
+        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">class</i>
+        @localizer["Create"]
+        <span class="ml-auto sidebar-menu-toggle-icon"></span>
+    </a>
+    <ul class="sidebar-submenu sm-indent collapse"
+        id="account_menu">
+        <li class="sidebar-menu-item @ViewBag.NavProfitCreate">
+            <a class="sidebar-menu-button"
+               asp-action="Create" asp-controller="Profit">
+                <span class="sidebar-menu-text">@localizer["IncomeExpenses"]</span>
+            </a>
+        </li>
+        <li class="sidebar-menu-item @ViewBag.NavNoteCreate">
+            <a class="sidebar-menu-button"
+               asp-action="Create" asp-controller="Note">
+                <span class="sidebar-menu-text">@localizer["Note"]</span>
+            </a>
+        </li>
+        @if (User.IsInRole("Admin"))
+        {
+            <li class="sidebar-menu-item @ViewBag.NavDebtsCreate">
+                <a class="sidebar-menu-button"
+                   asp-action="Create" asp-controller="Debts">
+                    <span class="sidebar-menu-text">@localizer["Debt"]</span>
+                </a>
+            </li>
+        }
+        
+            <li class="sidebar-menu-item @ViewBag.NavCardCreate">
+                <a class="sidebar-menu-button"
+                   asp-action="Create" asp-controller="Card">
+                    <span class="sidebar-menu-text">@localizer["BankAccount"]</span>
+                </a>
+            </li>
+        
+
+    </ul>
+</li>
+
+
+<li class="sidebar-menu-item @ViewBag.NavNote">
+    <a class="sidebar-menu-button"
+
+       asp-action="Index" asp-controller="Note">
+        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">comment</i> @localizer["Notes"]
+
+    </a>
+
+</li>
+
+<li class="sidebar-menu-item @ViewBag.NavCard">
+    <a class="sidebar-menu-button"
+
+       asp-action="Index" asp-controller="Card">
+        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">comment</i> @localizer["BankAccounts"]
+
+    </a>
+
+</li>
+
+@if (User.IsInRole("Admin"))
+{
+    <li class="sidebar-menu-item @ViewBag.NavDebts">
+        <a class="sidebar-menu-button"
+           asp-action="Index" asp-controller="Debts">
+            <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">comment</i> @localizer["Debts"]
+        </a>
+    </li>
+}
+
+@* <li class="sidebar-menu-item @ViewBag.NavDebtsIndexOpen @ViewBag.NavDebtsAccountOpen"> *@
+@*     <a class="sidebar-menu-button" *@
+@*        data-toggle="collapse" *@
+@*        href="#forum_menu"> *@
+@*         <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">chat_bubble_outline</i> *@
+@*         Borclar *@
+@*         <span class="ml-auto sidebar-menu-toggle-icon"></span> *@
+@*     </a> *@
+@*     <ul class="sidebar-submenu sm-indent collapse" *@
+@*         id="forum_menu"> *@
+@*         <li class="sidebar-menu-item @ViewBag.NavDebts"> *@
+@*             <a class="sidebar-menu-button" *@
+@*                asp-controller="Debts" asp-action="Index"> *@
+@*                 <span class="sidebar-menu-text">Qəbzlər</span> *@
+@*             </a> *@
+@*         </li> *@
+@*         <li class="sidebar-menu-item @ViewBag.NavDebtsAccount"> *@
+@*             <a class="sidebar-menu-button" *@
+@*                asp-controller="Debts" asp-action="Account"> *@
+@*                 <span class="sidebar-menu-text">Hesab</span> *@
+@*             </a> *@
+@*         </li> *@
+@* *@
+@*     </ul> *@
+@* </li> *@
+
+
+<li class="sidebar-menu-item @ViewBag.NavProfitOpen">
+    <a class="sidebar-menu-button sidebar-js-collapse"
+       data-toggle="collapse"
+       href="#plugins_menu">
+        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">tune</i>
+        @localizer["IncomeExpenses"]
+        <span class="ml-auto sidebar-menu-toggle-icon"></span>
+    </a>
+    <ul class="sidebar-submenu sm-indent collapse"
+        id="plugins_menu">
+
+        <li class="sidebar-menu-item @ViewBag.NavOwnIndex">
+            <a class="sidebar-menu-button"
+               asp-action="index" asp-controller="OwnProfit">
+                <span class="sidebar-menu-text">@localizer["Own"]</span>
+            </a>
+        </li>
+        <li class="sidebar-menu-item @ViewBag.NavWorkerHome">
+            <a class="sidebar-menu-button"
+               asp-action="index" asp-controller="Worker">
+                <span class="sidebar-menu-text">@localizer["Worker"]</span>
+            </a>
+        </li>
+        <li class="sidebar-menu-item @ViewBag.NavProfitHome">
+            <a class="sidebar-menu-button"
+               asp-action="index" asp-controller="Profit">
+                <span class="sidebar-menu-text">@localizer["Partners"]</span>
+            </a>
+        </li>
+
+    </ul>
+</li>
+
+
+<li class="sidebar-menu-item @ViewBag.NavAccountOpen">
+    <a class="sidebar-menu-button sidebar-js-collapse"
+       data-toggle="collapse"
+       href="#components_menu">
+        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">tune</i>
+        @localizer["Account"]
+        <span class="ml-auto sidebar-menu-toggle-icon"></span>
+    </a>
+    <ul class="sidebar-submenu sm-indent collapse"
+        id="components_menu">
+        <li class="sidebar-menu-item @ViewBag.NavOwnAccount">
+            <a class="sidebar-menu-button"
+               asp-action="Account" asp-controller="OwnProfit">
+                <span class="sidebar-menu-text">@localizer["Own"]</span>
+            </a>
+        </li>
+        <li class="sidebar-menu-item @ViewBag.NavWorkerAccount">
+            <a class="sidebar-menu-button"
+               asp-action="Account" asp-controller="Worker">
+                <span class="sidebar-menu-text">@localizer["Worker"]</span>
+            </a>
+        </li>
+        <li class="sidebar-menu-item @ViewBag.NavProfitAccount">
+            <a class="sidebar-menu-button"
+               asp-action="Account" asp-controller="Profit">
+                <span class="sidebar-menu-text">@localizer["Partners"]</span>
+            </a>
+        </li>
+
+    </ul>
+</li>
+
+
+<li class="sidebar-menu-item @ViewBag.NavProfile">
+    <a class="sidebar-menu-button"
+       asp-action="Details" asp-controller="Profile" asp-route-Id="@ViewBag.UserId">
+        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person_outline</i> @localizer["Profile"]
+    </a>
+</li>
+
+
+<!-- <li class="sidebar-menu-item">
+    <a class="sidebar-menu-button"
+       asp-action="Contact" asp-controller="Home">
+        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">class</i>Əlaqə
+    </a>
+</li>
+<li class="sidebar-menu-item">
+    <a class="sidebar-menu-button"
+       asp-action="Info" asp-controller="Home">
+        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">class</i> Məlumat
+    </a>
+</li> -->
+
+@if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+{
+    <li class="sidebar-menu-item @ViewBag.NavListRoles @ViewBag.NavListRolesOpen @ViewBag.NavListUsers @ViewBag.NavListUsersOpen">
+        <a class="sidebar-menu-button"
+           data-toggle="collapse"
+           href="#messages_menu">
+            <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">class</i> Meceger
+            <span class="ml-auto sidebar-menu-toggle-icon"></span>
+        </a>
+        <ul class="sidebar-submenu sm-indent collapse"
+            id="messages_menu">
+            <li class="sidebar-menu-item @ViewBag.NavListRoles">
+                <a class="sidebar-menu-button"
+                   asp-action="ListRoles" asp-controller="Administration">
+                    <span class="sidebar-menu-text">Role-lar</span>
+                </a>
+            </li>
+            <li class="sidebar-menu-item @ViewBag.NavListUsers">
+                <a class="sidebar-menu-button"
+                   asp-action="ListUsers" asp-controller="Administration">
+                    <span class="sidebar-menu-text">User-lər</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+}
+
+
+</ul>
+<!-- Components menu -->
+
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- App Settings FAB -->
+
+
+</div>
+</div>
+
+<!-- jQuery -->
+<script src="~/vendor/jquery.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="~/vendor/popper.min.js"></script>
+<script src="~/vendor/bootstrap.min.js"></script>
+
+<!-- Perfect Scrollbar -->
+<script src="~/vendor/perfect-scrollbar.min.js"></script>
+
+<!-- MDK -->
+<script src="~/vendor/dom-factory.js"></script>
+<script src="~/vendor/material-design-kit.js"></script>
+
+<!-- App JS -->
+<script src="~/js/app.js"></script>
+
+<!-- Highlight.js -->
+<script src="~/js/hljs.js"></script>
+
+<!-- App Settings (safe to remove) -->
+<script src="~/js/app-settings.js"></script>
+
+<!-- Global Settings -->
+<script src="~/js/settings.js"></script>
+
+<!-- Moment.js -->
+<script src="~/vendor/moment.min.js"></script>
+<script src="~/vendor/moment-range.js"></script>
+
+<!-- Chart.js -->
+<script src="~/vendor/Chart.min.js"></script>
+<script src="~/js/chartjs.js"></script>
+<script src="~/js/search.js"></script>
+<script src="~/js/readmore.js"></script>
+
+<!-- Student Dashboard Page JS -->
+<!-- <script src="assets/js/chartjs-rounded-bar.js"></script> -->
+<script src="~/js/page.student-dashboard.js"></script>
+
+</body>
+
+</html>

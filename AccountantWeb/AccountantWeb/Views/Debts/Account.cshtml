@@ -1,0 +1,72 @@
+﻿@using Microsoft.EntityFrameworkCore.Metadata.Internal
+@model IEnumerable<AccountantWeb.Models.DebtsModel>
+
+
+
+
+<div class="card-body">
+    <div class="row">
+
+        <div class="col-lg">
+
+            <div class="table-responsive border-bottom" data-toggle="lists" data-lists-values="[&quot;js-lists-values-employee-name&quot;]">
+
+
+                <table class="table mb-0">
+                    <thead>
+                    <tr>
+
+                        <th style="width:auto;">Borc Məbləği</th>
+
+                        <th style="width: auto;">Ödənilmiş Məbləğ</th>
+                       
+                        <th style="width: auto;">Qəbz Sayı</th>
+                        
+                    </tr>
+                    </thead>
+                    <tbody class="list" id="search">
+
+                    <tr>
+
+                        <td>
+
+                            <span class="js-lists-values-employee-name">
+                                
+                                
+
+                            </span>
+
+                        </td>
+
+                        <td>
+                            <span class="js-lists-values-employee-name"> </span>
+
+                            @* <small class="text-muted">3 days ago</small> *@
+                        </td>
+
+                        <td>
+                            
+                            <span class="js-lists-values-employee-name" > @ViewBag.ReceiptCount</span>
+
+                        </td>
+
+                        <td>
+                            <span class="js-lists-values-employee-name"></span>
+
+                        </td>
+                        <td>
+                            <span class="js-lists-values-employee-name"></span>
+
+                        </td>
+                        
+
+                    </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>

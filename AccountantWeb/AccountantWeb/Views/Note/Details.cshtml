@@ -1,0 +1,47 @@
+@model AccountantWeb.Models.NoteModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Bax</h1>
+<div class="card card-body">
+    <div class="row">
+        @*<div class="col-lg-4">
+            <h4 class="card-title">Gəlir</h4>
+            <p>LearnPlus supports all of Bootstrap's default form styling in addition to a handful of new input types and features. Please <a href="https://getbootstrap.com/docs/4.1/components/forms/" target="_blank">read the official documentation</a> for a full list of options from Bootstrap's core library.</p>
+        </div>*@
+        <div class="col-lg-8 d-flex align-items-center">
+            <form class="flex" asp-controller="Note" asp-action="index" method="post">
+
+                <div class="form-group">
+
+                    <h3>Müəllif:</h3>
+                    <h5>@Model.Author</h5>
+
+                </div>
+                <div class="form-group">
+
+                    <h3>Başlıq:</h3>
+                    <h5>@Model.Name</h5>
+
+                </div>
+                <div class="form-group">
+                    <h3>Tarix:</h3>
+                    <h5>@Model.Date</h5>
+                </div>
+
+                <div class="form-group">
+
+                    <h3>Qeyd:</h3>
+                    <h5>@Model.Note</h5>
+
+                </div>
+
+                <br/>
+                <a asp-action="Index" class="btn btn-primary">Ana Səhifə</a>
+
+            </form>
+        </div>
+    </div>
+</div>

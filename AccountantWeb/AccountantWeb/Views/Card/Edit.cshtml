@@ -1,0 +1,57 @@
+@model AccountantWeb.Models.CardModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Redaktə et</h1>
+
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="Author" hidden value="@Model.Author">
+            <input asp-for="RoleName" hidden value="@Model.RoleName">
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Ad</label>
+                <input asp-for="Name" class="form-control" placeholder="Ad"/>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CardNumber" class="control-label">Kart Nömrəsi</label>
+                <input asp-for="CardNumber" type="number" class="form-control" placeholder="Kart Nömrəsi"/>
+                <span asp-validation-for="CardNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CVV" class="control-label">CVV</label>
+                <input asp-for="CVV" type="number" class="form-control" placeholder="CVV"/>
+                <span asp-validation-for="CVV" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EndDate" class="control-label">Bitmə Tarixi</label>
+                <input asp-for="EndDate" type="number" placeholder="ay/il" class="form-control"/>
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Amount" class="control-label">Məbləğ</label>
+                <input asp-for="Amount" class="form-control" placeholder="Məbləğ"/>
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Currency" class="control-label">Valyuta</label>
+                <input asp-for="Currency" readonly value="manat" class="form-control" placeholder="Məbləğ"/>
+                <span asp-validation-for="Currency" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Redaktə et" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Geriyə</a>
+</div>

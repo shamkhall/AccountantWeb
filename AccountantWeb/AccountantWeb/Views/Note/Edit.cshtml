@@ -1,0 +1,45 @@
+@model AccountantWeb.Models.NoteModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1><a asp-action="Index">< </a>Redaktə et</h1>
+
+<div class="card card-body">
+    <div class="row">
+
+        <div class="col-lg-8 d-flex align-items-center">
+            <form class="flex" asp-controller="Note" asp-action="edit" method="post">
+                <input hidden asp-for="Id">
+                <input hidden asp-for="Author" value="@Model.Author">
+                <input hidden asp-for="RoleName" value="@Model.RoleName">
+
+                <div class="form-group">
+                    <label class="form-label" for="exampleInputEmail1">Başlıq:</label>
+                    <input asp-for="Name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Başlıq">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                                <label asp-for="Date" class="control-label">Tarix</label>
+                                <input asp-for="Date" class="form-control"/>
+                                <span asp-validation-for="Date" class="text-danger"></span>
+                            </div>
+
+
+                <div class="form-group">
+                    <label class="form-label" for="exampleInputPassword1">Qeyd</label>
+                    <textarea asp-for="Note" type="text" class="form-control" rows="7" id="exampleInputPassword1" placeholder="Rəy"></textarea>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Yenilə</button>
+                        <a asp-action="index" class="btn btn-danger">Ləğv et</a>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>

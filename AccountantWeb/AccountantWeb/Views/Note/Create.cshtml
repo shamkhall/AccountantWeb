@@ -1,0 +1,64 @@
+@model AccountantWeb.Models.NoteModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+@{
+    string role(string RoleName)
+    {
+        string s = "user";
+        if (User.IsInRole(RoleName))
+        {
+            s = "admin";
+        }
+        return s;
+    }
+}
+<h1>@localizer["NoteCreate"]</h1>
+
+<div class="card card-body">
+    <div class="row">
+
+
+        <div class="col-lg-8 d-flex align-items-center">
+            <form class="flex" asp-controller="Note" asp-action="create" method="post">
+
+
+                <input asp-for="Author" hidden readonly value="@User.Identity.Name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Başlıq">
+                <input asp-for="RoleName" hidden value="@role("Admin")" type="text">
+
+
+                <div class="form-group">
+                    <label class="form-label" for="exampleInputEmail1">@localizer["Title"]:</label>
+                    <input asp-for="Name" type="text" class="form-control" id="exampleInputEmail1" placeholder="@localizer["Title"]">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Date" class="control-label">@localizer["Date"]</label>
+                    <input asp-for="Date" class="form-control"/>
+                    <span asp-validation-for="Date" class="text-danger"></span>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="form-label" for="exampleInputPassword1">@localizer["Comment"]</label>
+                    <textarea asp-for="Note" type="text" class="form-control" rows="7" id="exampleInputPassword1" placeholder="@localizer["Comment"]"></textarea>
+                </div>
+
+
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">@localizer["CreateReceipt"]</button>
+                        <a asp-controller="note" asp-action="index" class="btn btn-danger">@localizer["Back"]</a>
+
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
