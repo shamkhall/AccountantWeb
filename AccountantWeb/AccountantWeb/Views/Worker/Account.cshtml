@@ -1,0 +1,93 @@
+﻿<h2 style="text-align: center;color: black">@localizer["Own"] </h2>
+
+
+<div class="card-body">
+    <div class="row">
+
+        <div class="col-lg">
+
+            <div class="table-responsive border-bottom" data-toggle="lists" data-lists-values="[&quot;js-lists-values-employee-name&quot;]">
+
+
+                <table class="table mb-0">
+                    <thead>
+                    <tr>
+
+                        <th style="width: 100px;">@localizer["Income"]</th>
+
+                        <th style="width: 100px;">@localizer["Expenses"]</th>
+                        <th style="width: 100px;">@localizer["Profit"]</th>
+                        <th style="width: 100px;">@localizer["ReceiptAmount"]</th>
+
+                    </tr>
+                    </thead>
+                    <tbody class="list" id="search">
+
+                    <tr>
+
+                        <td>
+
+                            <span class="js-lists-values-employee-name">
+                                @ViewBag.ProfitResult Manat
+
+                            </span>
+
+                        </td>
+
+                        <td>
+                            <span class="js-lists-values-employee-name">@ViewBag.ExpencesResult Manat</span>
+
+                            @* <small class="text-muted">3 days ago</small> *@
+                        </td>
+
+                        <td>
+                            @{
+                                string color = "green";
+                                if (ViewBag.GainResult < 0)
+                                {
+                                    color = "red";
+                                }
+                            }
+                            <span class="js-lists-values-employee-name" style="color: @color">@ViewBag.GainResult Manat</span>
+
+                        </td>
+
+                        <td>
+                            <span class="js-lists-values-employee-name">@ViewBag.ReceiptCount</span>
+
+                        </td>
+
+
+                        @* <td> *@
+                        @*     <a data-toggle="dropdown" *@
+                        @*        href="#" *@
+                        @*        role="button"> *@
+                        @*         <i class="material-icons">more_vert</i> *@
+                        @*     </a> *@
+                        @*     <div class="dropdown-menu dropdown-menu-right"> *@
+                        @*         <a class="dropdown-item" *@
+                        @*            asp-action="Details" asp-controller="Profit" > *@
+                        @*             <i class="material-icons">edit</i> Bax *@
+                        @*         </a> *@
+                        @*         <a class="dropdown-item" *@
+                        @*            asp-action="Edit" asp-controller="Profit" > *@
+                        @*             <i class="material-icons">edit</i> Redaktə et *@
+                        @*         </a> *@
+                        @*         <a class="dropdown-item" *@
+                        @*            asp-action="Delete" asp-controller="Profit" > *@
+                        @*             <i class="material-icons">edit</i> Sil *@
+                        @*         </a> *@
+                        @*     </div> *@
+                        @* *@
+                        @* </td> *@
+
+                    </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>

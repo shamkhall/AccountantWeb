@@ -1,0 +1,26 @@
+﻿@model AccountantWeb.ViewModels.CreateRoleViewModel
+
+@{
+    ViewBag.Title = "Register";
+      Layout = "_Layout";
+
+}
+
+<h1 style="text-align: center">Role Yarat</h1>
+
+<div class="row" style="margin: 0 auto;width:700px;">
+    <div class="col-md-12">
+        <form method="post" autocomplete="off">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            
+            
+            <div class="form-group">
+                <label asp-for="RoleName">Role</label>
+                <input asp-for="RoleName" class="form-control"/>
+                <span asp-validation-for="RoleName" class="text-danger"></span>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Yarat</button>
+        </form>
+    </div>
+</div>

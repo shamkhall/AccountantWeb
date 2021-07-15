@@ -1,0 +1,54 @@
+@model AccountantWeb.Models.CardModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Bax</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+            <dt class="col-sm-2">
+                Ad
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class="col-sm-2">
+                Kart Nömrəsi
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.CardNumber)
+            </dd>
+            <dt class="col-sm-2">
+                CVV
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.CVV)
+            </dd>
+            <dt class="col-sm-2">
+                Bitmə Tarixi
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.EndDate)
+            </dd>
+            <dt class="col-sm-2">
+                Məbləğ
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Amount)
+            </dd>
+            <dt class="col-sm-2">
+                Valyuta
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Currency)
+            </dd>
+        </dl>
+</div>
+<div>
+    <a asp-action="Create" asp-controller="Turnover"  class="btn btn-primary">Transfer</a>
+    <a asp-action="Index" asp-controller="Turnover" class="btn btn-primary">Qəbzlər</a>
+    
+</div>

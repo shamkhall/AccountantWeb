@@ -1,0 +1,55 @@
+﻿@model IEnumerable<IdentityRole>
+
+@{
+    Layout = "_Layout";
+}
+
+<h1 style="text-align: center">Bütün Role-lar</h1>
+@if (Model.Any())
+{
+    
+        <a class="btn btn-primary mb-3" style="width:auto" asp-action="CreateRole"
+           asp-controller="administration">
+            Yeni role əlavə et
+        </a>
+    
+    foreach (var role in Model)
+    {
+        <div class="card mb-3" >
+            <div class="card-header">
+                Role Id : @role.Id
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">@role.Name</h5>
+            </div>
+            
+
+            <form method="post" asp-action="DeleteRole" asp-route-Id="@role.Id">
+                <div class="card-footer">
+                    <a asp-controller="Administration" asp-action="EditRole" asp-route-Id="@role.Id" class="btn btn-primary">Redaktə et</a>
+                    <button type="submit" class="btn btn-danger"
+                            onclick="return confirm('Role-u silmək istədiyinizə əminsiniz?')">Sil</button>
+                </div>
+            </form>
+
+
+        </div>
+    }
+}
+else
+{
+    <div class="card" >
+        <div class="card-header">
+            Role yaradılmayıb
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">
+                Aşağıdakı buton ilə Role yarat
+            </h5>
+            <a class="btn btn-primary" style="width:auto"
+               asp-controller="administration" asp-action="CreateRole">
+                Role yarat
+            </a>
+        </div>
+    </div>
+}

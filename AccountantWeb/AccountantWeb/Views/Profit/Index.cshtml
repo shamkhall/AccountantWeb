@@ -1,0 +1,127 @@
+﻿@model IEnumerable<Profit>
+
+
+
+@{
+    string color(string s)
+    {
+        if (s == "Gəlir")
+        {
+            return "green";
+        }
+        return "red";
+    }
+}
+
+<h2 style="text-align: center;color: black">@localizer["IncomeExpensesCreate"]</h2>
+
+<div class="row" data-toggle="dragula">
+
+
+    <table class="table">
+        <tr>
+            <th>
+                @localizer["Name"]
+            </th>
+            <th>
+                @localizer["Author"]
+            </th>
+            <th>
+                @localizer["Date"]
+            </th>
+            <th>
+                @localizer["Amount"]
+            </th>
+
+            <th>
+                @localizer["Status"]
+            </th>
+            <th>
+                @localizer["Comment"]
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            if (item.RoleName == "admin" && !item.Own)
+            {
+                <tr>
+                    <td>
+                        @item.Name
+                    </td>
+                    <td>
+                        @item.Author
+                    </td>
+                    <td>
+                        @item.Date
+                    </td>
+                    <td>
+                        @item.Amount @item.Currency
+                    </td>
+                    <td>
+                        @item.Status
+                    </td>
+                    <td style="word-break: break-all">
+                        <style>
+                              #more {display: none;}
+                     
+                        </style>
+                        @{
+                            string comment = item.Comment;
+                            int lenght = 30;
+                            int br = 29;
+                        }
+                        @for (int i = 0; i < comment.Length; i++)
+                        {
+                            if (i <= lenght)
+                                @comment[i]
+                        }
+                        @if (comment.Length > lenght)
+                        {
+                            <span id="dots">...</span>
+                            <span id="more">
+
+                                @for (int i = lenght; i < comment.Length; i++)
+                                {
+                                    @comment[i]
+                                }
+                            </span>
+
+                            <button onclick="myFunction()" id="myBtn">Read more</button>
+                        }
+
+                    </td>
+
+
+                    <td>
+                        <li class="nav-item dropdown ml-1 ml-md-3">
+                            <a data-toggle="dropdown"
+                               href="#"
+                               role="button">
+                                <i class="material-icons">more_vert</i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item"
+                                   asp-action="Details" asp-controller="Profit" asp-route-id="@item.Id">
+                                    <i class="material-icons">edit</i> @localizer["View"]
+                                </a>
+                                <a class="dropdown-item"
+                                   asp-action="Edit" asp-controller="Profit" asp-route-id="@item.Id">
+                                    <i class="material-icons">edit</i> @localizer["Edit"]
+                                </a>
+                                <a class="dropdown-item"
+                                   asp-action="Delete" asp-controller="Profit" asp-route-id="@item.Id">
+                                    <i class="material-icons">edit</i> @localizer["Delete"]
+                                </a>
+                            </div>
+                        </li>
+                    </td>
+
+                </tr>
+            }
+        }
+
+    </table>
+
+
+</div>

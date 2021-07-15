@@ -1,0 +1,49 @@
+﻿@using AccountantWeb.Models
+@using Microsoft.AspNetCore.Http
+@model IEnumerable<Profit>
+
+
+<h2 style="text-align: center;color: black">Ana Səhifə </h2>
+
+
+<div class="row" data-toggle="dragula">
+
+    <div class="col-sm-6 col-md-4">
+        <div class="card card-sm">
+            <div class="card-body d-flex">
+
+                <div class="flex">
+                    <a asp-controller="Note" asp-action="index">
+                        <h2>Keçid: @localizer["Note"]</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="card card-sm">
+            <div class="card-body d-flex">
+    
+                <div class="flex">
+                    <a asp-controller="Card" asp-action="index">
+                        <h2>Keçid: Bank Hesabları</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+            <div class="card card-sm">
+                <div class="card-body d-flex">
+    
+                    <div class="flex">
+                        <a asp-controller="Debts" asp-action="index">
+                            <h2>Keçid: Borclar</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+</div>
