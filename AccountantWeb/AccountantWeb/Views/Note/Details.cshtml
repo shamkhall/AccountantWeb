@@ -4,7 +4,7 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Bax</h1>
+<h1>@localizer["View"]</h1>
 <div class="card card-body">
     <div class="row">
         @*<div class="col-lg-4">
@@ -16,31 +16,28 @@
 
                 <div class="form-group">
 
-                    <h3>Müəllif:</h3>
+                    <h3>@localizer["Author"]:</h3>
                     <h5>@Model.Author</h5>
 
                 </div>
                 <div class="form-group">
 
-                    <h3>Başlıq:</h3>
+                    <h3>@localizer["Title"]:</h3>
                     <h5>@Model.Name</h5>
 
                 </div>
                 <div class="form-group">
-                    <h3>Tarix:</h3>
+                    <h3>@localizer["Date"]:</h3>
                     <h5>@Model.Date</h5>
                 </div>
 
                 <div class="form-group">
 
-                    <h3>Qeyd:</h3>
+                    <h3>@localizer["Note"]:</h3>
                     <h5>@Model.Note</h5>
 
                 </div>
-
-                <br/>
-                <a asp-action="Index" class="btn btn-primary">Ana Səhifə</a>
-
+                
             </form>
         </div>
     </div>

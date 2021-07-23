@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ioSbaMvNNLZ+IWXxgmGYeAt2CxAt40/hveRf7J8eqPJosSS85jekBXwolN7jCMf4MyqHSk+BlOb7exaaidvUpg==",
+  "dgSpecHash": "iSTNkAHIFdluqEGQ9ZgWwAmxvkUkTO9klOj8rRmfyPcYKEXcJgbnSFA7ViwFFrj5uX8t//5rwbQZDN73iyXGww==",
   "success": true,
-  "projectFilePath": "F:\\Workspace\\AccountantWeb\\AccountantWeb\\AccountantWeb\\AccountantWeb.csproj",
+  "projectFilePath": "C:\\repos\\Prestij724\\AccountantWeb\\AccountantWeb\\AccountantWeb\\AccountantWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shamkhal\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\shamkhal\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",

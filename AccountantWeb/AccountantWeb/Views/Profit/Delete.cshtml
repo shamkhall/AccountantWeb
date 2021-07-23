@@ -1,6 +1,6 @@
 ﻿@model Profit
 
-<h1>Sil</h1>
+<h1>@localizer["DeletePage"]</h1>
 
 <div class="card card-body">
     <div class="row">
@@ -13,63 +13,58 @@
                 <input type="hidden" asp-for="Id"/>
 
                 <div class="form-group">
-                
-                                    <h3>Ad:</h3>
-                                    <h5>@Model.Name</h5>
-                
-                                </div>
+
+                    <h3>@localizer["Name"]:</h3>
+                    <h5>@Model.Name</h5>
+
+                </div>
                 <div class="form-group">
 
-                    <h3>Müəllif:</h3>
+                    <h3>@localizer["Author"]:</h3>
                     <h5>@Model.Author</h5>
 
                 </div>
 
                 <div class="form-group">
-                    <h3>Tarix:</h3>
+                    <h3>@localizer["Date"]:</h3>
                     <h5>@Model.Date</h5>
                 </div>
                 <div class="form-group">
 
-                    <h3>Məbləğ:</h3>
+                    <h3>@localizer["Amount"]:</h3>
                     <h5>@Model.Amount</h5>
 
                 </div>
                 <div class="form-group">
 
 
-                    <h3>Valyuta:</h3>
+                    <h3>@localizer["Currency"]:</h3>
                     <h5>@Model.Currency</h5>
 
                 </div>
                 <div class="form-group">
 
 
-                    <h3>Valyuta:</h3>
+                    <h3>@localizer["Status"]:</h3>
                     <h5>@Model.Status</h5>
 
                 </div>
 
                 <div class="form-group">
 
-                    <h3>Rəy:</h3>
+                    <h3>@localizer["Comment"]:</h3>
                     <h5>@Model.Comment</h5>
 
                 </div>
 
-                <div class="form-group">
-
-                    <h3>Şəxsi:</h3>
-                    <h5>@Model.Comment</h5>
-
-                </div>
+                
                 <br/>
 
 
                 <form asp-action="Delete">
                     <input type="hidden" asp-for="Id"/>
-                    <input type="submit" value="Delete" class="btn btn-primary"/> |
-                    <a asp-action="Index" asp-controller="Home" class="btn btn-danger">Ləğv et</a>
+                    <input type="submit" value="@localizer["DeletePage"]" class="btn btn-primary"/> |
+                    <a asp-action="Index" asp-controller="Home" class="btn btn-danger">@localizer["Back"]</a>
                 </form>
 
             </div>

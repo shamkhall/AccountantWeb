@@ -4,19 +4,19 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Bax</h1>
+<h1>@localizer["View"]</h1>
 
 <div>
     <hr />
     <dl class="row">
             <dt class="col-sm-2">
-                Ad
+                @localizer["Name"]
             </dt>
             <dd class="col-sm-10">
                 @Html.DisplayFor(model => model.Name)
             </dd>
             <dt class="col-sm-2">
-                Kart Nömrəsi
+                @localizer["CardNumber"]
             </dt>
             <dd class="col-sm-10">
                 @Html.DisplayFor(model => model.CardNumber)
@@ -28,19 +28,19 @@
                 @Html.DisplayFor(model => model.CVV)
             </dd>
             <dt class="col-sm-2">
-                Bitmə Tarixi
+                @localizer["EndDate"]
             </dt>
             <dd class="col-sm-10">
                 @Html.DisplayFor(model => model.EndDate)
             </dd>
             <dt class="col-sm-2">
-                Məbləğ
+                @localizer["Amount"]
             </dt>
             <dd class="col-sm-10">
                 @Html.DisplayFor(model => model.Amount)
             </dd>
             <dt class="col-sm-2">
-                Valyuta
+                @localizer["Currency"]
             </dt>
             <dd class="col-sm-10">
                 @Html.DisplayFor(model => model.Currency)
@@ -48,7 +48,7 @@
         </dl>
 </div>
 <div>
-    <a asp-action="Create" asp-controller="Turnover"  class="btn btn-primary">Transfer</a>
-    <a asp-action="Index" asp-controller="Turnover" class="btn btn-primary">Qəbzlər</a>
+    <a asp-action="Create" asp-controller="Turnover"  class="btn btn-primary">@localizer["Transfer"]</a>
+    <a asp-action="Index" asp-controller="Turnover" class="btn btn-primary">@localizer["Receipts"]</a>
     
 </div>

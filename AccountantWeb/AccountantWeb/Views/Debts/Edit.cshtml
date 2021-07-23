@@ -4,7 +4,7 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Redaktə et</h1>
+<h1>@localizer["EditPage"]</h1>
 
 <hr/>
 <div class="row">
@@ -14,47 +14,43 @@
             <input type="hidden" asp-for="Id"/>
             <input type="hidden" value="@Model.Author" asp-for="Author"/>
             <div class="form-group">
-                <label asp-for="Name" class="control-label">Başlıq</label>
+                <label asp-for="Name" class="control-label">@localizer["Title"]</label>
                 <input asp-for="Name" class="form-control"/>
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Date" class="control-label">Tarix</label>
+                <label asp-for="Date" class="control-label">@localizer["Date"]</label>
                 <input asp-for="Date" class="form-control"/>
                 <span asp-validation-for="Date" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Amount" class="control-label">Məbləğ</label>
+                <label asp-for="Amount" class="control-label">@localizer["Amount"]</label>
                 <input asp-for="Amount" class="form-control"/>
                 <span asp-validation-for="Amount" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Currency" class="control-label">Valyuta</label>
+                <label asp-for="Currency" class="control-label">@localizer["Currency"]</label>
                 <input asp-for="Currency" class="form-control"/>
                 <span asp-validation-for="Currency" class="text-danger"></span>
             </div>
 
             <div class="form-group">
-                <label asp-for="Percent" class="control-label">Valyuta</label>
+                <label asp-for="Percent" class="control-label">@localizer["Faiz"]</label>
                 <input asp-for="Percent" min="0" max="100" class="form-control"/>
                 <span asp-validation-for="Percent" class="text-danger"></span>
             </div>
 
 
             <div class="form-group">
-                <label asp-for="Comment" class="control-label">Rəy</label>
+                <label asp-for="Comment" class="control-label">@localizer["Comment"]</label>
                 <textarea asp-for="Comment"  class="form-control" ></textarea>
                 <span asp-validation-for="Comment" class="text-danger"></span>
             </div>
 
 
             <div class="form-group">
-                <input type="submit" value="Yadda Saxla" class="btn btn-primary"/>
+                <input type="submit" value="@localizer["EditPage"]" class="btn btn-primary"/>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Geriyə</a>
 </div>

@@ -35,10 +35,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Create.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="Resources\Views\Note\Create.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Create.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Update="Resources\Views\Debt\Create.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Create.Designer.cs</LastGenOutput>
@@ -99,6 +95,74 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>_Culture.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Note\Create.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Create.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Note\Details.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Details.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Note\Edit.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Edit.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Note\Delete.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Delete.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Card\Details.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Details.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Card\Edit.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Edit.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Card\Delete.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Delete.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Debts\Details.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Details.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Debts\Edit.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Edit.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Debts\Delete.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Delete.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Profit\Details.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Details.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Profit\Edit.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Edit.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Profit\Delete.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Delete.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Turnover\Create.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Create.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Turnover\Delete.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Delete.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Turnover\Details.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Details.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Profile\Details.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Details.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
@@ -113,11 +177,6 @@
       <DependentUpon>_Layout.resx</DependentUpon>
     </Compile>
     <Compile Update="Resources\Views\Profit\Create.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Create.resx</DependentUpon>
-    </Compile>
-    <Compile Update="Resources\Views\Note\Create.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Create.resx</DependentUpon>
@@ -181,6 +240,91 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>_Culture.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Note\Create.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Create.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Note\Details.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Details.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Note\Edit.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Edit.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Note\Delete.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Delete.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Card\Details.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Details.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Card\Edit.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Edit.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Card\Delete.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Delete.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Debts\Details.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Details.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Debts\Edit.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Edit.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Debts\Delete.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Delete.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Profit\Details.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Details.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Profit\Edit.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Edit.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Profit\Delete.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Delete.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Turnover\Create.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Create.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Turnover\Delete.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Delete.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Turnover\Details.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Details.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Profile\Details.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Details.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 

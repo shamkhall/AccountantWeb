@@ -4,7 +4,7 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1><a asp-action="Index">< </a>Redaktə et</h1>
+<h1><a asp-action="Index">< </a>@localizer["CreateReceipt"]</h1>
 
 <div class="card card-body">
     <div class="row">
@@ -16,26 +16,26 @@
                 <input hidden asp-for="RoleName" value="@Model.RoleName">
 
                 <div class="form-group">
-                    <label class="form-label" for="exampleInputEmail1">Başlıq:</label>
+                    <label class="form-label" for="exampleInputEmail1">@localizer["Title"]:</label>
                     <input asp-for="Name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Başlıq">
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                                <label asp-for="Date" class="control-label">Tarix</label>
+                                <label asp-for="Date" class="control-label">@localizer["Date"]</label>
                                 <input asp-for="Date" class="form-control"/>
                                 <span asp-validation-for="Date" class="text-danger"></span>
                             </div>
 
 
                 <div class="form-group">
-                    <label class="form-label" for="exampleInputPassword1">Qeyd</label>
+                    <label class="form-label" for="exampleInputPassword1">@localizer["Comment"]</label>
                     <textarea asp-for="Note" type="text" class="form-control" rows="7" id="exampleInputPassword1" placeholder="Rəy"></textarea>
                 </div>
 
                 <div class="form-group row">
                     <div class="col-sm-10">
-                        <button type="submit" class="btn btn-primary">Yenilə</button>
-                        <a asp-action="index" class="btn btn-danger">Ləğv et</a>
+                        <button type="submit" class="btn btn-primary">@localizer["CreateReceipt"]</button>
+                        <a asp-action="index" class="btn btn-danger">@localizer["Back"]</a>
                     </div>
                 </div>
 

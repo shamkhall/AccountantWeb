@@ -1,0 +1,59 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Date" xml:space="preserve">
+        <value>дата</value>
+    </data>
+    <data name="Amount" xml:space="preserve">
+        <value>Количество</value>
+    </data>
+    <data name="Currency" xml:space="preserve">
+        <value>Валюта</value>
+    </data>
+    <data name="Comment" xml:space="preserve">
+        <value>Комментарий</value>
+    </data>
+    <data name="CreateReceipt" xml:space="preserve">
+        <value>Создавать</value>
+    </data>
+    <data name="Back" xml:space="preserve">
+        <value>Назад</value>
+    </data>
+    <data name="Name" xml:space="preserve">
+        <value>Имя</value>
+    </data>
+    <data name="CardCreate" xml:space="preserve">
+        <value>Создать карту</value>
+    </data>
+    <data name="CardNumber" xml:space="preserve">
+        <value>Номер карты</value>
+    </data>
+    <data name="EndDate" xml:space="preserve">
+        <value>Дата окончания</value>
+    </data>
+    <data name="View" xml:space="preserve">
+        <value>Вид</value>
+    </data>
+    <data name="Transfer" xml:space="preserve">
+        <value>Передача</value>
+    </data>
+    <data name="Receipts" xml:space="preserve">
+        <value>Квитанции</value>
+    </data>
+    <data name="EditPage" xml:space="preserve">
+        <value>Редактировать</value>
+    </data>
+    <data name="MonthYear" xml:space="preserve">
+        <value>месяц/год</value>
+    </data>
+</root>

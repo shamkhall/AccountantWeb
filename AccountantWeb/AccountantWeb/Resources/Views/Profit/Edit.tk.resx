@@ -1,0 +1,65 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Date" xml:space="preserve">
+        <value>Taryh</value>
+    </data>
+    <data name="IncomeExpensesCreate" xml:space="preserve">
+        <value>Girdeji we çykdajy</value>
+    </data>
+    <data name="Amount" xml:space="preserve">
+        <value>Mukdary</value>
+    </data>
+    <data name="Currency" xml:space="preserve">
+        <value>Mukdary</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="Select" xml:space="preserve">
+        <value>saýlaň</value>
+    </data>
+    <data name="Income" xml:space="preserve">
+        <value>Girdejiler</value>
+    </data>
+    <data name="Expenses" xml:space="preserve">
+        <value>Çykdajylar</value>
+    </data>
+    <data name="Comment" xml:space="preserve">
+        <value>Syn</value>
+    </data>
+    <data name="Own" xml:space="preserve">
+        <value>Şahsy</value>
+    </data>
+    <data name="CreateReceipt" xml:space="preserve">
+        <value>Dörediň</value>
+    </data>
+    <data name="Back" xml:space="preserve">
+        <value>Yzyna</value>
+    </data>
+    <data name="Author" xml:space="preserve">
+        <value>Avtor</value>
+    </data>
+    <data name="EditPage" xml:space="preserve">
+        <value>Redaktirläň</value>
+    </data>
+    <data name="Delete" xml:space="preserve">
+        <value>Öçür</value>
+    </data>
+    <data name="View" xml:space="preserve">
+        <value>Serediň</value>
+    </data>
+    <data name="Name" xml:space="preserve">
+        <value>Ady</value>
+    </data>
+</root>

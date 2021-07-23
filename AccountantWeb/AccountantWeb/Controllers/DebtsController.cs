@@ -82,7 +82,7 @@ namespace AccountantWeb.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Author,Title,Date,Amount,Currency,Comment, Percent")] DebtsModel debtsModel)
+        public async Task<IActionResult> Create([Bind("Id,Author,Name,Date,Amount,Currency,Comment, Percent")] DebtsModel debtsModel)
         {
             if (ModelState.IsValid)
             {
@@ -120,7 +120,7 @@ namespace AccountantWeb.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Author,Title,Date,Amount,Currency,Percent,Comment")] DebtsModel debtsModel)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Author,Name,Date,Amount,Currency,Percent,Comment")] DebtsModel debtsModel)
         {
             if (id != debtsModel.Id)
             {

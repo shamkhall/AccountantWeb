@@ -58,7 +58,7 @@ namespace AccountantWeb.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,CardId,Author,Date,Amount,Currency,Comment,Status")] TurnoverModel turnoverModel)
+        public async Task<IActionResult> Create([Bind("Id,Name,CardId,Author,Date,Amount,Currency,Comment,Status")] TurnoverModel turnoverModel)
         {
 
             foreach (var item in await _context.Cards.ToListAsync())

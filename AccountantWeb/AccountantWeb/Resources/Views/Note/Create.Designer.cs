@@ -59,41 +59,5 @@ namespace AccountantWeb.Resources.Views.Note {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        internal static string Comment {
-            get {
-                return ResourceManager.GetString("Comment", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        internal static string CreateReceipt {
-            get {
-                return ResourceManager.GetString("CreateReceipt", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        internal static string NoteCreate {
-            get {
-                return ResourceManager.GetString("NoteCreate", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        internal static string Title {
-            get {
-                return ResourceManager.GetString("Title", resourceCulture);
-            }
-        }
     }
 }

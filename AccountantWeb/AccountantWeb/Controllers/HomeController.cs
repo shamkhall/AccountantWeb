@@ -35,7 +35,13 @@ namespace AccountantWeb.Controllers
                 new CookieOptions { Expires = DateTimeOffset.Now.AddDays(30) });
             return LocalRedirect(returnUrl);
         }
-      
+
+        // [HttpGet]
+        // public IActionResult _Notification()
+        // {
+        //     var model = _profitRepository.GetAllEmployees();
+        //     return View(model);
+        // }
         
         public ViewResult Index()
         {

@@ -1,7 +1,7 @@
 ﻿@using AccountantWeb.Models
 @model Profit
 
-<h1>Redaktə et</h1>
+<h1>@localizer["EditPage"]</h1>
 <div class="card card-body">
     <div class="row">
 
@@ -17,54 +17,54 @@
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="Date" class="control-label">Tarix</label>
+                    <label asp-for="Date" class="control-label">@localizer["Date"]</label>
                     <input asp-for="Date" class="form-control"/>
                     <span asp-validation-for="Date" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label class="form-label" for="exampleInputPassword1">Məbləğ:</label>
-                    <input asp-for="Amount" type="number" class="form-control" id="exampleInputPassword1" placeholder="Məbləğ">
+                    <label class="form-label" for="exampleInputPassword1">@localizer["Amount"]:</label>
+                    <input asp-for="Amount" type="number" class="form-control" id="exampleInputPassword1">
                     <span asp-validation-for="Amount" class="text-danger"></span>
 
                 </div>
 
                 <div class="form-group">
-                    <label class="form-label" for="exampleInputPassword1">Valyuta:</label>
+                    <label class="form-label" for="exampleInputPassword1">@localizer["Currency"]:</label>
                     <select asp-for="Currency" class="form-control"
                             asp-items="Html.GetEnumSelectList<Curr>()">
-                        <option value="">Please Select</option>
+                        <option value="">@localizer["Select"]</option>
                     </select>
                     <span asp-validation-for="Currency" class="text-danger"></span>
 
                 </div>
 
                 <div class="form-group">
-                    <label class="form-label">Status:</label>
+                    <label class="form-label">@localizer["Status"]:</label>
                     <select asp-for="Status" class="form-control"
                             asp-items="Html.GetEnumSelectList<Stat>()">
-                        <option value="">Seçim et</option>
+                        <option value="">@localizer["Select"]</option>
                     </select>
                     <span asp-validation-for="Status" class="text-danger"></span>
 
                 </div>
 
                 <div class="form-group">
-                    <label class="form-label" for="exampleInputPassword1">Rəy</label>
-                    <textarea asp-for="Comment" type="text" class="form-control" rows="7" id="exampleInputPassword1" placeholder="Rəy"></textarea>
+                    <label class="form-label" for="exampleInputPassword1">@localizer["Comment"]</label>
+                    <textarea asp-for="Comment" type="text" class="form-control" rows="7" id="exampleInputPassword1"></textarea>
                 </div>
 
 
                 <div class="form-group form-check">
                     <label class="form-check-label">
-                        <input class="form-check-input" asp-for="Own"/> Şəxsi
+                        <input class="form-check-input" asp-for="Own"/> @localizer["Own"]
 
                     </label>
                 </div>
 
                 <div class="form-group row">
                     <div class="col-sm-10">
-                        <button type="submit" class="btn btn-primary">Yenilə</button>
-                        <a asp-controller="Home" asp-action="index" class="btn btn-danger">Ləğv et</a>
+                        <button type="submit" class="btn btn-primary">@localizer["EditPage"]</button>
+                        <a asp-controller="Home" asp-action="index" class="btn btn-danger">@localizer["Back"]</a>
                     </div>
                 </div>
 

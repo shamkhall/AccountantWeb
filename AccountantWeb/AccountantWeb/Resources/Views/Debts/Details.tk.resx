@@ -1,0 +1,59 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Date" xml:space="preserve">
+        <value>Taryh</value>
+    </data>
+    <data name="Amount" xml:space="preserve">
+        <value>Mukdary</value>
+    </data>
+    <data name="Currency" xml:space="preserve">
+        <value>Mukdary</value>
+    </data>
+    <data name="Comment" xml:space="preserve">
+        <value>Syn</value>
+    </data>
+    <data name="CreateReceipt" xml:space="preserve">
+        <value>Dörediň</value>
+    </data>
+    <data name="Faiz" xml:space="preserve">
+        <value>Gyzyklanma</value>
+    </data>
+    <data name="Title" xml:space="preserve">
+        <value>Ady</value>
+    </data>
+    <data name="NoDebt" xml:space="preserve">
+        <value>Karzy ýok</value>
+    </data>
+    <data name="Paid" xml:space="preserve">
+        <value>Tölegli</value>
+    </data>
+    <data name="Unpaid" xml:space="preserve">
+        <value>tölenmedik</value>
+    </data>
+    <data name="Author" xml:space="preserve">
+        <value>Avtor</value>
+    </data>
+    <data name="Debts" xml:space="preserve">
+        <value>Karzlar</value>
+    </data>
+    <data name="View" xml:space="preserve">
+        <value>Gör</value>
+    </data>
+    <data name="Pay" xml:space="preserve">
+        <value>Töleg</value>
+    </data>
+    <data name="Receipts" xml:space="preserve">
+        <value>Çykyşlar</value>
+    </data>
+</root>

@@ -1,7 +1,22 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FCard_002FCreate/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FCard_002FDelete/@EntryIndexedValue">False</s:Boolean>
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FCard_002FDetails/@EntryIndexedValue">False</s:Boolean>
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FCard_002FEdit/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FCard_002FIndex/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FDebts_002FCreate/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FDebts_002FDelete/@EntryIndexedValue">False</s:Boolean>
+	
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FDebts_002FDetails/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FDebts_002FEdit/@EntryIndexedValue">False</s:Boolean>
 	
 	
 	
@@ -17,17 +32,58 @@
 	
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FHome_002FIndex/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FNote_002FCreate/@EntryIndexedValue">False</s:Boolean>
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FNote_002FDelete/@EntryIndexedValue">False</s:Boolean>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FNote_002FDetails/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FNote_002FEdit/@EntryIndexedValue">False</s:Boolean>
+	
+	
+	
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FNote_002FIndex/@EntryIndexedValue">False</s:Boolean>
+	
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FOwnProfit_002FAccount/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FOwnProfit_002FIndex/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FProfile_002FDetails/@EntryIndexedValue">True</s:Boolean>
+	
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FProfit_002FAccount/@EntryIndexedValue">False</s:Boolean>
 	
-	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FProfit_002FCreate/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FProfit_002FCreate/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FProfit_002FDelete/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FProfit_002FDetails/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FProfit_002FEdit/@EntryIndexedValue">False</s:Boolean>
+	
 	
 	
 	
 	
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FProfit_002FIndex/@EntryIndexedValue">False</s:Boolean>
+	
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FShared_002F_005FCulture/@EntryIndexedValue">False</s:Boolean>
 	
 	
@@ -36,6 +92,11 @@
 	
 	
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FShared_002F_005FLayout/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FTurnover_002FCreate/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FTurnover_002FDelete/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FTurnover_002FDetails/@EntryIndexedValue">False</s:Boolean>
+	
+	
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=AccountantWeb_002FResources_002FViews_002FWorker_002FAccount/@EntryIndexedValue">False</s:Boolean>
 	
 	
