@@ -23,9 +23,8 @@ namespace AccountantWeb.Controllers
         [HttpGet]
         [Authorize(Roles = "Admin")]
         public IActionResult Register()
-        {
-            return View();
-        }
+            => View();
+        
 
         [HttpPost]
         [AllowAnonymous]
@@ -78,10 +77,7 @@ namespace AccountantWeb.Controllers
         [AllowAnonymous]
 
         public IActionResult Login()
-        {
-
-            return View();
-        }
+            => View();
 
 
         [AcceptVerbs("Get", "Post")]
@@ -92,7 +88,7 @@ namespace AccountantWeb.Controllers
             var user = await _userManager.FindByEmailAsync(email);
             if (user == null)
             {
-                return Json(true);
+                return Json(true); 
             }
             else
             {
@@ -131,9 +127,7 @@ namespace AccountantWeb.Controllers
         [HttpGet]
         [AllowAnonymous]
         public IActionResult AccessDenied()
-        {
-            return RedirectToAction("index", "home");
-        }
-        
+            => RedirectToAction("index", "home");
+
     }
 }

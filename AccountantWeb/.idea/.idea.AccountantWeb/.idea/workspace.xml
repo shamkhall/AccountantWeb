@@ -5,200 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48c0fc3f-280f-451a-92b9-1e303ae58617" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AccountantWeb/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Card/Delete.az.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Card/Delete.en.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Card/Delete.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Card/Delete.ru.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Card/Delete.tk.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Card/Details.az.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Card/Details.en.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Card/Details.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Card/Details.ru.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Card/Details.tk.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Card/Edit.az.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Card/Edit.en.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Card/Edit.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Card/Edit.ru.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Card/Edit.tk.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Debts/Delete.az.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Debts/Delete.en.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Debts/Delete.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Debts/Delete.ru.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Debts/Delete.tk.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Debts/Details.az.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Debts/Details.en.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Debts/Details.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Debts/Details.ru.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Debts/Details.tk.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Debts/Edit.az.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Debts/Edit.en.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Debts/Edit.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Debts/Edit.ru.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Debts/Edit.tk.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Delete.az.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Delete.en.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Delete.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Delete.ru.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Delete.tk.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Details.az.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Details.en.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Details.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Details.ru.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Details.tk.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Edit.az.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Edit.en.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Edit.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Edit.ru.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Edit.tk.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Details.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profit/Delete.az.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profit/Delete.en.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profit/Delete.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profit/Delete.ru.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profit/Delete.tk.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profit/Details.az.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profit/Details.en.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profit/Details.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profit/Details.ru.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profit/Details.tk.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profit/Edit.az.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profit/Edit.en.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profit/Edit.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profit/Edit.ru.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profit/Edit.tk.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Turnover/Create.az.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Turnover/Create.en.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Turnover/Create.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Turnover/Create.ru.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Turnover/Create.tk.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Turnover/Delete.az.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Turnover/Delete.en.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Turnover/Delete.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Turnover/Delete.ru.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Turnover/Delete.tk.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Turnover/Details.az.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Turnover/Details.en.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Turnover/Details.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Turnover/Details.ru.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Turnover/Details.tk.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountantWeb/Views/Shared/_Notification.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Profile.az.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Profile.en.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Profile.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Profile.ru.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Profile.tk.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AccountantWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AccountantWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/AccountantWeb/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/AccountantWeb/v16/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/AccountantWeb.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/AccountantWeb.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Controllers/DebtsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Controllers/DebtsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Controllers/TurnoverController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Controllers/TurnoverController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Create.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Create.resx" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Note/Create.resx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Card/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Card/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Card/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Card/Details.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Card/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Card/Edit.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Debts/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Debts/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Debts/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Debts/Details.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Debts/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Debts/Edit.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Debts/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Debts/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Note/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Note/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Note/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Note/Details.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Note/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Note/Edit.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Profit/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Profit/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Profit/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Profit/Details.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Profit/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Profit/Edit.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Shared/_Culture.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Shared/_Culture.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Turnover/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Turnover/Create.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Turnover/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Turnover/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Turnover/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Turnover/Details.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Turnover/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Turnover/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Details.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Details.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Details.az.resx" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Details.az.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Details.en.resx" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Details.en.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Details.resx" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Details.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Details.ru.resx" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Details.ru.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Details.tk.resx" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Details.tk.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Profile/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Profile/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountantWeb/Views/Profile/Profile.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/Views/Profile/Profile.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/AccountantWeb.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/AccountantWeb.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/AccountantWeb.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/AccountantWeb.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/AccountantWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/AccountantWeb.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/AccountantWeb.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/AccountantWeb.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/az/AccountantWeb.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/az/AccountantWeb.resources.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/en/AccountantWeb.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/en/AccountantWeb.resources.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/ref/AccountantWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/ref/AccountantWeb.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/ru/AccountantWeb.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/ru/AccountantWeb.resources.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/tk/AccountantWeb.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/bin/Debug/net5.0/tk/AccountantWeb.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/AccountantWeb.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/AccountantWeb.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/AccountantWeb.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/AccountantWeb.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.RazorCoreGenerate.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.Resources.Views.Note.Create.resources" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.Resources.Views.Note.Create.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.Resources.Views.Profile.Details.az.resources" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.Resources.Views.Profile.Details.az.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.Resources.Views.Profile.Details.en.resources" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.Resources.Views.Profile.Details.en.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.Resources.Views.Profile.Details.resources" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.Resources.Views.Profile.Details.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.Resources.Views.Profile.Details.ru.resources" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.Resources.Views.Profile.Details.ru.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.Resources.Views.Profile.Details.tk.resources" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.Resources.Views.Profile.Details.tk.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/AccountantWeb.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Account/AccessDenied.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Account/AccessDenied.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Account/Login.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Account/Login.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Account/Register.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Account/Register.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Administration/CreateRole.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Administration/CreateRole.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Administration/EditRole.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Administration/EditRole.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Administration/EditUser.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Administration/EditUser.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Administration/EditUsersInRole.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Administration/EditUsersInRole.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Administration/ListRoles.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Administration/ListRoles.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Administration/ListUsers.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Administration/ListUsers.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Card/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Card/Create.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Card/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Card/Delete.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Card/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Card/Details.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Card/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Card/Edit.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Card/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Card/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Debts/Account.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Debts/Account.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Debts/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Debts/Create.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Debts/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Debts/Delete.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Debts/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Debts/Details.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Debts/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Debts/Edit.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Debts/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Debts/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/DebtsRepayment/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/DebtsRepayment/Create.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/DebtsRepayment/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/DebtsRepayment/Delete.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/DebtsRepayment/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/DebtsRepayment/Details.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/DebtsRepayment/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/DebtsRepayment/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Note/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Note/Create.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Note/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Note/Delete.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Note/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Note/Details.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Note/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Note/Edit.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Note/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Note/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/OwnProfit/Account.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/OwnProfit/Account.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/OwnProfit/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/OwnProfit/Index.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Profile/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Profile/Details.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Profile/Profile.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Profile/Profile.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Profit/Account.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Profit/Account.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Profit/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Profit/Create.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Profit/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Profit/Delete.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Profit/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Profit/Details.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Profit/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Profit/Edit.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Profit/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Profit/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Shared/NotFound.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Shared/NotFound.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Shared/_AccountLayout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Shared/_AccountLayout.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Shared/_Culture.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Shared/_Culture.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Turnover/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Turnover/Create.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Turnover/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Turnover/Delete.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Turnover/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Turnover/Details.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Turnover/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Turnover/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Worker/Account.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Worker/Account.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Worker/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/Worker/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/az/AccountantWeb.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/az/AccountantWeb.resources.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/en/AccountantWeb.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/en/AccountantWeb.resources.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/ref/AccountantWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/ref/AccountantWeb.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/ru/AccountantWeb.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/ru/AccountantWeb.resources.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/tk/AccountantWeb.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/Debug/net5.0/tk/AccountantWeb.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountantWeb/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AccountantWeb/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,6 +108,9 @@
       <option value="$PROJECT_DIR$/AccountantWeb/Views/Turnover/Details.cshtml" />
       <option value="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile.resx" />
       <option value="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Details.resx" />
+      <option value="$PROJECT_DIR$/AccountantWeb/Views/Profile/Details.cshtml" />
+      <option value="$PROJECT_DIR$/AccountantWeb/Views/Profile/Profile.cshtml" />
+      <option value="$PROJECT_DIR$/AccountantWeb/Resources/Views/Profile/Profile.resx" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vJ3PLggdWzvc0ml43nmwuWY09H" />
@@ -319,7 +172,7 @@
       <workItem from="1627050920042" duration="1453000" />
       <workItem from="1627052439112" duration="1650000" />
       <workItem from="1627054541990" duration="1101000" />
-      <workItem from="1627058917332" duration="4943000" />
+      <workItem from="1627058917332" duration="7011000" />
     </task>
     <servers />
   </component>

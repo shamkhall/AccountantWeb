@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iSTNkAHIFdluqEGQ9ZgWwAmxvkUkTO9klOj8rRmfyPcYKEXcJgbnSFA7ViwFFrj5uX8t//5rwbQZDN73iyXGww==",
+  "dgSpecHash": "NTZLTD+gTmFH/x2g/epO/NbWZnXYtlNnczbFBvhwvZp7IEaz5Ef2eWzxnNFHzLbKpU542tq4mXVg+Ma5SMlbmg==",
   "success": true,
   "projectFilePath": "C:\\repos\\Prestij724\\AccountantWeb\\AccountantWeb\\AccountantWeb\\AccountantWeb.csproj",
   "expectedPackageFiles": [
@@ -180,8 +180,8 @@
     "C:\\Users\\shamkhal\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\shamkhal\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
     "C:\\Users\\shamkhal\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
-    "C:\\Users\\shamkhal\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\shamkhal\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\shamkhal\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\shamkhal\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

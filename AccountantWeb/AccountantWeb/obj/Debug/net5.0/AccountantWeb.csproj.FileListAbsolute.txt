@@ -632,13 +632,9 @@ C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\A
 C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\AccountantWeb.MvcApplicationPartsAssemblyInfo.cache
 C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\AccountantWeb.RazorAssemblyInfo.cache
 C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\AccountantWeb.RazorAssemblyInfo.cs
-C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\az\AccountantWeb.resources.cs
 C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\az\AccountantWeb.resources.dll
-C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\en\AccountantWeb.resources.cs
 C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\en\AccountantWeb.resources.dll
-C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\ru\AccountantWeb.resources.cs
 C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\ru\AccountantWeb.resources.dll
-C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\tk\AccountantWeb.resources.cs
 C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\tk\AccountantWeb.resources.dll
 C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\staticwebassets\AccountantWeb.StaticWebAssets.Manifest.cache
 C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\staticwebassets\AccountantWeb.StaticWebAssets.xml
@@ -778,3 +774,8 @@ C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\A
 C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\AccountantWeb.Resources.Views.Profile.Details.en.resources
 C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\AccountantWeb.Resources.Views.Profile.Details.tk.resources
 C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\AccountantWeb.Resources.Views.Profile.Details.ru.resources
+C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\AccountantWeb.Resources.Views.Profile.Profile.resources
+C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\AccountantWeb.Resources.Views.Profile.Profile.az.resources
+C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\AccountantWeb.Resources.Views.Profile.Profile.en.resources
+C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\AccountantWeb.Resources.Views.Profile.Profile.ru.resources
+C:\repos\Prestij724\AccountantWeb\AccountantWeb\AccountantWeb\obj\Debug\net5.0\AccountantWeb.Resources.Views.Profile.Profile.tk.resources

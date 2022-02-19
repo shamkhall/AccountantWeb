@@ -2,7 +2,7 @@
 @inject SignInManager<ApplicationUser> signInManager
 
 
-<h1>Sənin Hesabın</h1>
+<h1>@localizer["YourAccount"]</h1>
 
     <div class="form-group row">
         <label asp-for="Id" class="col-sm-2 col-form-label"></label>
@@ -17,7 +17,7 @@
         </div>
     </div>
     <div class="form-group row">
-        <label asp-for="UserName" class="col-sm-2 col-form-label">Ad</label>
+        <label asp-for="UserName" class="col-sm-2 col-form-label">@localizer["Name"]</label>
         <div class="col-sm-10">
             @Model.UserName
 
@@ -43,10 +43,10 @@
     <div class="form-group row">
         <div class="col-sm-10">
             <form method="post" asp-action="DeleteProfile" asp-route-Id="@ViewBag.UserId">
-            <a asp-action="Profile" asp-controller="Profile" class="btn btn-primary">Redaktə et</a>
+            <a asp-action="Profile" asp-controller="Profile" class="btn btn-primary">@localizer["Edit"]</a>
 
                 <button type="submit" class="btn btn-danger"
-                        onclick="return confirm('Hesabınızı silmək istədiyinizə əminsiniz: @User.Identity.Name')">Hesabı Sil</button>
+                        onclick="return confirm('@User.Identity.Name, hesabınızı silmək istədiyinizə əminsiniz?')">@localizer["Delete"]</button>
 
             </form> 
         </div>
